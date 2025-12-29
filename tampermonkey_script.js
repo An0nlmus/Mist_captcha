@@ -2,7 +2,7 @@
 // @name         Решатель Капчи
 // @namespace    http://tampermonkey.net/
 // @version      3.2
-// @description  Решатель Капчи
+// @description  Решатель Капчи для Mist
 // @author       =Mist
 // @match        https://world.mist-game.ru/*
 // @grant        GM_getResourceURL
@@ -13,6 +13,9 @@
 // @resource     SHARD_1    https://an0nlmus.github.io/Mist_captcha/group1-shard1of3.bin
 // @resource     SHARD_2    https://an0nlmus.github.io/Mist_captcha/group1-shard2of3.bin
 // @resource     SHARD_3    https://an0nlmus.github.io/Mist_captcha/group1-shard3of3.bin
+//
+// @updateURL    https://raw.githubusercontent.com/An0nlmus/Mist_captcha/main/tampermonkey_script.js
+// @downloadURL  https://raw.githubusercontent.com/An0nlmus/Mist_captcha/main/tampermonkey_script.js
 // ==/UserScript==
 
 (function() {
